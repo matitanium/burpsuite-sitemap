@@ -5,7 +5,7 @@ parser.add_argument('-i', '--input', type=str, help='sitemap xml file: google.xm
 parser.add_argument('-o', '--output', type=str, help='outputfile: burp_urls.txt' , default='burp_urls.txt')
 parser.add_argument('-c', '--cli', type=str, help='to print all url in cli, dont save output in file.')
 args = parser.parse_args()
-
+#code by matitanium
 
 path = args.input
 out = args.output
